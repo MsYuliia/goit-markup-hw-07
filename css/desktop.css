@@ -1,0 +1,173 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /*-------------------------Menu Nav-------------------------*/
+  .header > .container {
+    width: 1158px;
+  }
+
+  .header-logo {
+    padding-bottom: 28px;
+    margin-right: 76px;
+  }
+
+  /*-------------------------Contacts-------------------------*/
+  .adress-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact {
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
+
+  /*-------------------------Studio------------------------*/
+  /*-------------------------Tittle-------------------------*/
+  .hero > .container {
+    width: 1158px;
+  }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/hero/background-desk.jpg");
+    max-width: 1440px;
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero/background-desk-2x.jpg");
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /*-------------------------Section 1-------------------------*/
+  .about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: var(--light-mode-color);
+    border-radius: 4px;
+
+    margin-bottom: 8px;
+  }
+
+  .service {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .description {
+    font-weight: 400;
+
+    max-width: 264px;
+  }
+
+  /*-------------------------Section 2-------------------------*/
+  .example {
+    display: block;
+    padding-top: 0;
+  }
+
+  .example-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .example-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /*-------------------------Section 3-------------------------*/
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  /*-------------------------Section 4-------------------------*/
+  .customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  /*-------------------------Footer-------------------------*/
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+  }
+
+  /*-------------------------Footer Logo-------------------------*/
+  .footer-description {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+
+  /*-------------------------Footer Social Media-------------------------*/
+  .footer-social {
+    margin-left: 120px;
+  }
+
+  /*-------------------------Footer Subscribe-------------------------*/
+  .footer-subscribe {
+    margin-left: auto;
+  }
+
+  /*-------------------------Portfolio Buttons------------------------*/
+  .portfolio > .container {
+    max-width: 1158px;
+  }
+
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-button-list {
+    margin-bottom: 72px;
+  }
+
+  /*-------------------------Portfolio Example------------------------*/
+  .portfolio-example-list {
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  /*-------------------------Modal Window------------------------*/
+  .modal {
+    height: 584px;
+  }
+}

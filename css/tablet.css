@@ -1,0 +1,234 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  /*-------------------------Menu Nav-------------------------*/
+  .header > .container {
+    width: 768px;
+  }
+
+  .header-logo {
+    padding-bottom: 28px;
+    margin-right: 120px;
+  }
+
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-text-color);
+    transition: color var(--transition);
+    position: relative;
+
+    padding-top: 24px;
+    padding-bottom: 28px;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: var(--pressed-state-color);
+  }
+
+  .current {
+    color: var(--pressed-state-color);
+  }
+  .current::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    left: 0;
+    background: var(--pressed-state-color);
+    border-radius: 2px;
+  }
+
+  /*-------------------------Contacts-------------------------*/
+  .address {
+    margin-left: auto;
+  }
+
+  .adress-list {
+    display: block;
+  }
+
+  .contact {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+    transition: color var(--transition);
+  }
+
+  .contact:hover,
+  .contact:focus {
+    color: var(--pressed-state-color);
+  }
+
+  /*-------------------------Modal Menu Buttons-------------------------*/
+  .menu-open-button {
+    display: none;
+  }
+
+  /*-------------------------Studio------------------------*/
+  /*-------------------------Tittle-------------------------*/
+  .hero > .container {
+    width: 768px;
+  }
+
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/hero/background-tab.jpg");
+    max-width: 768px;
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero/background-tab-2x.jpg");
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+
+    margin-bottom: 40px;
+  }
+
+  /*-------------------------Section 1-------------------------*/
+  .about-list {
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .service {
+    text-align: left;
+  }
+
+  .description {
+    max-width: 356px;
+  }
+
+  /*-------------------------Section 3-------------------------*/
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    gap: 24px;
+    row-gap: 64px;
+  }
+
+  /*-------------------------Section 4-------------------------*/
+  .customers-list {
+    gap: 24px;
+    row-gap: 72px;
+  }
+
+  .customers-list-link {
+    width: 168px;
+  }
+
+  /*-------------------------Footer-------------------------*/
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 107px;
+  }
+
+  /*-------------------------Footer Logo-------------------------*/
+  .footer-logo {
+    justify-content: left;
+
+    margin-bottom: 0;
+  }
+
+  .footer-logo-light {
+    color: var(--footer-text-color);
+  }
+
+  .footer-description {
+    max-width: 264px;
+
+    margin-top: 16px;
+    margin-bottom: 72px;
+  }
+
+  /*-------------------------Footer Social Media-------------------------*/
+  .footer-social {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 24px;
+  }
+
+  .footer-subtitel {
+    justify-content: left;
+  }
+  /*-------------------------Footer Subscribe-------------------------*/
+  .footer-form {
+    display: flex;
+  }
+
+  .footer-form-input {
+    width: 264px;
+
+    margin-bottom: 0;
+  }
+
+  .footer-form-submit {
+    margin-left: 24px;
+  }
+
+  /*-------------------------Portfolio Buttons------------------------*/
+  .portfolio > .container {
+    max-width: 768px;
+  }
+
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-button-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-button {
+    padding: 12px 24px;
+  }
+
+  /*-------------------------Portfolio Example------------------------*/
+  .portfolio-example-list {
+    justify-content: left;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  /*-------------------------Modal Window------------------------*/
+  .modal {
+    width: 408px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

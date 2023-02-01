@@ -1,0 +1,64 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+
+  /*-------------------------Menu Nav-------------------------*/
+  .header > .container {
+    width: 480px;
+  }
+
+  /*-------------------------Mob Menu Contacts-------------------------*/
+  .menu-tel {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  /*-------------------------Mob Menu Social-------------------------*/
+  .menu-social-list {
+    justify-content: left;
+  }
+
+  .menu-social-item:not(:last-child) {
+    margin-right: 56px;
+  }
+  /*-------------------------Studio------------------------*/
+  /*-------------------------Tittle-------------------------*/
+  .hero > .container {
+    width: 428px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  /*-------------------------Modal Window------------------------*/
+  .modal {
+    width: 392px;
+    height: 586px;
+
+    padding-top: 72px;
+    padding-bottom: 24px;
+  }
+
+  /*-------------------------Modal Form------------------------*/
+  .modal-desc {
+    margin-bottom: 16px;
+  }
+
+  .modal-form-message {
+    height: 120px;
+  }
+
+  .modal-form-check-desc {
+    font-size: 12px;
+
+    margin-bottom: 24px;
+  }
+
+  .modal-form-submit {
+    padding: 14px 32px;
+  }
+}
